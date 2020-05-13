@@ -1,0 +1,53 @@
+<outertag>
+<jobs>
+<job>
+    <ID>1</ID>
+    <title>Lab Tech-Chemistry</title>
+    <job_category>Clinical</job_category>
+    <company>ICONMA, LLC</company>
+    <city>Ada</city>
+    <state>MICHIGAN</state>
+</job>
+<job>
+    <ID>2</ID>
+    <title>Lab Tech-physics</title>
+    <job_category>physics</job_category>
+    <company>Abc, LLC</company>
+    <city>hyderabad</city>
+    <state>AP</state>
+</job>
+<job>
+    <ID>3</ID>
+    <title>Technician</title>
+    <job_category>computers</job_category>
+    <company>Lbc</company>
+    <city>hyderabad</city>
+    <state>UP</state>
+</job>
+<job>
+    <ID>4</ID>
+    <title>Engineer</title>
+    <job_category>computers</job_category>
+    <company>jhghg</company>
+    <city>hyderabad</city>
+    <state>telangana</state>
+</job>
+<job>
+    <ID>5</ID>
+    <title>Web Technician</title>
+    <job_category>software</job_category>
+    <company>google</company>
+    <city>varanasi</city>
+    <state>UP</state>
+</job>
+<job>
+    <ID>6</ID>
+    <title>Technician</title>
+    <job_category>hardware</job_category>
+    <company>Lbc</company>
+    <city>ameerpet</city>
+    <state>telengana</state>
+</job>
+</jobs>
+
+</outertag>

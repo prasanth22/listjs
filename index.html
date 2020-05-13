@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .pagination li {
+            display:inline-block;
+            padding:5px;
+            }
+    </style>
+</head>
+<body>
+    <h1>list</h1>
+
+    <div id="test-list">
+        <input type="text" class="search" />
+        <button class="sort" data-sort="age">
+            Sort by age
+          </button>
+        <ul class="list">
+          <li><p class="name">Guybrush Threepwood</p><p class="age">30</p></li>
+          <li><p class="name">Elaine Marley</p><p class="age">34</p></li>
+          <li><p class="name">LeChuck</p><p class="age">20</p></li>
+          <li><p class="name">Stan</p><p class="age">23</p></li>
+          <li><p class="name">Voodoo Lady</p><p class="age">38</p></li>
+          <li><p class="name">Herman Toothrot</p><p class="age">12</p></li>
+          <li><p class="name">Meathook</p><p class="age">22</p></li>
+          <li><p class="name">Carla</p><p class="age">24</p></li>
+          <li><p class="name">Otis</p><p class="age">10</p></li>
+          <li><p class="name">Rapp Scallion</p><p class="age">24</p></li>
+          <li><p class="name">Rum Rogers Sr.</p><p class="age">44</p></li>
+          <li><p class="name">Men of Low Moral Fiber</p><p class="age">60</p></li>
+          <li><p class="name">Murray</p><p class="age">27</p></li>
+          <li><p class="name">Cannibals</p><p class="age">38</p></li>
+        </ul>
+        <ul class="pagination"></ul>
+      </div>
+
+    <script src="js/list.js"></script>
+    <script>
+        var monkeyList = new List('test-list', {
+        valueNames: ['name','age'],
+        page: 5,
+        pagination: true
+        });
+    </script>
+</body>
+</html>

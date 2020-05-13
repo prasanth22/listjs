@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="users">
+        <input class="search" placeholder="Search" />
+        <button class="sort" data-sort="title">
+          Sort by title
+        </button>
+        <table>
+          <!-- IMPORTANT, class="list" have to be at tbody -->
+          <thead>
+            <tr>
+              <th>sl.no</th>
+              <th>title</th>
+              <th>job_category</th>
+              <th>company</th>
+              <th>city</th>
+            </tr>
+          </thead>
+          <tbody class="list">
+            <tr>
+              <td>1</td>
+              <td class="title">Jonny Stromberg</td>
+              <td class="job_cat">Clinical</td>
+              <td class="company">ICONMA, LLC</td>
+              <td class="city">Ada</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td class="title">Jonny J</td>
+                <td class="job_cat">Clinical</td>
+                <td class="company">kjhiouh, LLC</td>
+                <td class="city">Ada</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td class="title">Stromberg</td>
+                <td class="job_cat">jkoh</td>
+                <td class="company">ICONMA, LLC</td>
+                <td class="city">khmnb</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td class="title">jhkhb Stromberg</td>
+                <td class="job_cat">nvkjbk</td>
+                <td class="company">ICONMA, LLC</td>
+                <td class="city">Ada</td>
+            </tr>
+          </tbody>
+        </table>
+      
+      </div>
+      <script src="js/list.js"></script>
+      <script>
+          var options = {
+            valueNames: [ 'title', 'job_cat', 'company', 'city' ]
+            };
+
+            var userList = new List('users', options);
+      </script>
+</body>
+</html>
